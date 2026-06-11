@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FitSupply Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <img class="brand-logo" id="logoHomeBtn" src="images/logo.png" alt="FitSupply Logo" />
+
+      <div class="search-box">
+        <input id="productSearchInput" class="product-search" type="search" placeholder="Produkt suchen..." autocomplete="off" />
+        <button id="productSearchBtn" class="search-submit" type="button" aria-label="Suchen">⌕</button>
+        <div id="searchResults" class="search-results"></div>
+      </div>
+    </div>
+
+    <nav class="nav-menu">
+      <button class="nav-btn active" data-panel="produkte">Produkte</button>
+      <button class="nav-btn" data-panel="kontakt">Kontakt</button>
+      <button class="nav-btn" data-panel="warenkorb">Warenkorb</button>
+      <button class="nav-btn" data-panel="konto">Konto</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Dein Ziel.</h1>
+    <h2>Unser Protein.</h2>
+  </section>
+
+  <main>
+    <section id="home" class="panel">
+      <div class="home-hero">
+        <div class="home-card">
+          <h3>Willkommen bei FitSupply</h3>
+          <div id="randomSlogan" class="slogan-box"></div>
+          <p>FitSupply steht für moderne Fitness-Ernährung, klare Produktqualität und einen Shop, der einfach Spaß macht. Ob Muskelaufbau, Alltag oder Training: Unsere Produkte sollen dich motivieren, dranzubleiben.</p>
+          <p>Bei uns bestellst du nicht nur Protein, sondern ein Stück mehr Fokus, Energie und Lifestyle.</p>
+          <button class="ghost-btn" type="button" data-panel="produkte">Jetzt Produkte ansehen</button>
+        </div>
+
+        <div class="home-card">
+          <h3 class="founder-title">Gründer von FitSupply</h3>
+          <div class="founder-card">
+            <div class="founder-name">Robert Jetzschmann</div>
+            <div class="founder-role">Co-Founder • Vision & Performance</div>
+          </div>
+          <div class="founder-card">
+            <div class="founder-name">Tim Hinzmann</div>
+            <div class="founder-role">Co-Founder • Brand & Nutrition</div>
+          </div>
+          <div class="founder-card">
+            <div class="founder-name">Leon Hadel</div>
+            <div class="founder-role">Co-Founder • Fitness & Development</div>
+          </div>
+          <p class="muted">Gemeinsam entwickeln wir FitSupply als moderne Fitness-Marke mit hochwertigen Protein-Shakes, starken Inhaltsstoffen und einzigartigem Geschmack für dein tägliches Training.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="produkte" class="panel active">
+      <h2 class="section-title">Unsere Produkte</h2>
+      <div class="products-layout">
+        <div class="product-carousel">
+          <div class="carousel-controls">
+            <button id="prevProductsBtn" class="ghost-btn carousel-arrow" type="button">←</button>
+            <div id="carouselCounter" class="carousel-counter">1-2</div>
+            <button id="nextProductsBtn" class="ghost-btn carousel-arrow" type="button">→</button>
+          </div>
+          <div id="productGrid" class="product-grid"></div>
+        </div>
+
+        <div class="viewer">
+          <div class="viewer-image-wrapper">
+            <img id="viewerImage" src="" alt="Produktbild" onerror="this.style.opacity=0.25;" />
+          </div>
+          <h3 id="viewerName"></h3>
+          <p id="viewerDescription"></p>
+
+          <div class="variant-row">
+            <label for="variantSelect">Größe auswählen</label>
+            <select id="variantSelect" class="variant-select"></select>
+          </div>
+
+          <div id="viewerPrice" class="price-line"></div>
+
+          <div id="stockInfo" class="stock-info"></div>
+
+          <div class="quantity-row">
+            <label for="quantityInput">Anzahl auswählen</label>
+            <div class="quantity-control">
+              <button id="decreaseQuantityBtn" class="qty-btn" type="button">−</button>
+              <input id="quantityInput" class="quantity-input" type="number" min="1" value="1" />
+              <button id="increaseQuantityBtn" class="qty-btn" type="button">+</button>
+            </div>
+          </div>
+
+          <button id="addToCartBtn" class="add-btn" type="button">In den Warenkorb</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="panel">
+      <h2 class="section-title">Kontakt</h2>
+
+      <div class="contact-box">
+        <p><strong>E-Mail:</strong> <a href="mailto:Fitsupply@gmail.com">Fitsupply@gmail.com</a></p>
+        <p><strong>Kundendienst:</strong> +49 30 1234 5678</p>
+        <p><strong>Servicezeiten:</strong> Montag bis Freitag, 09:00 bis 18:00 Uhr</p>
+        <p class="muted">Wir helfen dir gerne bei Fragen zu Produkten, Bestellung und Lieferung.</p>
+      </div>
+
+      <div class="contact-box" style="margin-top:24px;">
+        <h3 style="color: var(--pink); margin-bottom:18px; font-size:1.5rem;">Impressum</h3>
+        <p><strong>FitSupply GmbH</strong></p>
+        <p>Fitness- und Ernährungsprodukte</p>
+        <p>Musterstraße 21</p>
+        <p>10115 Berlin</p>
+        <br>
+        <p><strong>Vertreten durch:</strong></p>
+        <p>Robert Jetzschmann</p>
+        <p>Tim Hinzmann</p>
+        <p>Leon Hadel</p>
+        <br>
+        <p><strong>Kontakt:</strong></p>
+        <p>E-Mail: Fitsupply@gmail.com</p>
+        <p>Telefon: +49 30 1234 5678</p>
+        <br>
+        <p><strong>Umsatzsteuer-ID:</strong></p>
+        <p>DE123456789</p>
+        <br>
+        <p class="muted">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: FitSupply GmbH, Berlin.</p>
+      </div>
+    </section>
+
+    <section id="warenkorb" class="panel">
+      <h2 class="section-title">Warenkorb</h2>
+      <div class="cart-box">
+        <ul id="cartList" class="cart-list"></ul>
+        <p id="emptyCartText" class="empty">Noch keine Produkte im Warenkorb.</p>
+
+        <div class="cart-summary">
+          <p><strong>Zwischensumme:</strong> <span id="subtotal">0,00 €</span></p>
+          <p><strong>Mehrwertsteuer (19%):</strong> <span id="tax">0,00 €</span></p>
+          <p><strong>Rabatt:</strong> <span id="discount">0,00 €</span></p>
+          <p><strong>Versand:</strong> <span id="shipping">0,00 €</span></p>
+          <p id="shippingInfo" class="muted">Ab 50,00 € Bestellwert inklusive Mehrwertsteuer ist der Versand gratis.</p>
+          <p id="discountInfo" class="badge"></p>
+          <p><strong>Gesamtsumme:</strong> <span id="total" class="total">0,00 €</span></p>
+          <button id="payBtn" class="pay-btn" type="button">Zur Kasse</button>
+          <p class="payment-methods">Zahlungsmöglichkeiten: PayPal, Kreditkarte, Sofortüberweisung und Klarna.</p>
+        </div>
+      </div>
+
+      <div class="checkout-box" id="checkoutBox" style="margin-top: 24px; display:none;">
+        <h3>Checkout</h3>
+        <p class="muted">Du kannst als Gast bestellen oder dich einloggen, damit deine Bestellung im Konto gespeichert wird.</p>
+
+        <div class="checkout-grid">
+          <div class="field-group">
+            <label for="checkoutFirstName">Vorname</label>
+            <input id="checkoutFirstName" class="checkout-input" type="text" placeholder="Max" />
+          </div>
+
+          <div class="field-group">
+            <label for="checkoutLastName">Nachname</label>
+            <input id="checkoutLastName" class="checkout-input" type="text" placeholder="Mustermann" />
+          </div>
+
+          <div class="field-group full">
+            <label for="checkoutEmail">E-Mail für Bestellbestätigung</label>
+            <input id="checkoutEmail" class="checkout-input" type="email" placeholder="max@email.de" />
+          </div>
+
+          <div class="field-group full">
+            <label for="checkoutStreet">Straße und Hausnummer</label>
+            <input id="checkoutStreet" class="checkout-input" type="text" placeholder="Musterstraße 12" />
+          </div>
+
+          <div class="field-group">
+            <label for="checkoutZip">PLZ</label>
+            <input id="checkoutZip" class="checkout-input" type="text" placeholder="12345" />
+          </div>
+
+          <div class="field-group">
+            <label for="checkoutCity">Stadt</label>
+            <input id="checkoutCity" class="checkout-input" type="text" placeholder="Berlin" />
+          </div>
+
+          <div class="field-group full">
+            <label for="paymentMethod">Zahlungsart</label>
+            <select id="paymentMethod" class="payment-select">
+              <option value="PayPal">PayPal</option>
+              <option value="Kreditkarte">Kreditkarte</option>
+              <option value="Sofortüberweisung">Sofortüberweisung</option>
+              <option value="Klarna">Klarna</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="checkout-note">
+          Demo-Checkout: In einer echten Webseite würde hier die Verbindung zu PayPal, Stripe, Klarna oder einem anderen Zahlungsanbieter stattfinden.
+        </div>
+
+        <button id="placeOrderBtn" class="pay-btn" type="button">Kostenpflichtig bestellen</button>
+        <p id="checkoutStatus" class="success-text"></p>
+      </div>
+    </section>
+
+    <section id="konto" class="panel">
+      <h2 class="section-title">Konto</h2>
+      <div class="account-layout">
+        <div class="account-box">
+          <h3>Anmelden oder registrieren</h3>
+          <div class="field-group">
+            <label for="accountEmail">E-Mail</label>
+            <input id="accountEmail" class="text-input" type="email" placeholder="deine@email.de" />
+          </div>
+          <div class="field-group">
+            <label for="accountPassword">Passwort</label>
+            <input id="accountPassword" class="password-input" type="password" placeholder="Passwort eingeben" />
+          </div>
+          <div style="display:flex; gap:18px; flex-wrap:wrap; margin-top:18px; align-items:center;">
+            <button id="registerBtn" class="auth-btn" type="button">Registrieren</button>
+            <button id="loginBtn" class="ghost-btn" type="button">Anmelden</button>
+          </div>
+          <p id="accountMessage" class="success-text"></p>
+          <p class="muted">Neukunden erhalten automatisch 5% Rabatt auf ihren ersten Einkauf.</p>
+        </div>
+
+        <div class="order-box">
+          <h3>Deine Bestellungen</h3>
+          <p id="welcomeText" class="muted">Noch nicht angemeldet.</p>
+          <ul id="orderList" class="order-list"></ul>
+          <p id="emptyOrdersText" class="empty">Noch keine Bestellungen vorhanden.</p>
+          <button id="logoutBtn" class="ghost-btn" type="button" style="display:none;">Abmelden</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 FitSupply</footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

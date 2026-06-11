@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Apfel Protein Mix",
+    "description": "Frischer Apfelgeschmack für deinen energiereichen Start in den Tag.",
+    "image": "images/apfel.png",
+    "tasteInfo": "Knackiger Apfelgeschmack, angenehm frisch und cremig im Shake.",
+    "ingredients": "Mit Whey-Protein, Apfelaroma, Vitaminen und wenig Zucker.",
+    "variants": [
+      {
+        "size": "500g",
+        "price": 14.99,
+        "stock": 100,
+        "totalStock": 100
+      },
+      {
+        "size": "1kg",
+        "price": 24.99,
+        "stock": 100,
+        "totalStock": 100
+      },
+      {
+        "size": "1.5kg",
+        "price": 34.99,
+        "stock": 100,
+        "totalStock": 100
+      }
+    ]
+  },
+  {
+    "name": "Kirsche Power Shake",
+    "description": "Süß und fruchtig - ideal nach dem Training oder als Snack zwischendurch.",
+    "image": "images/kirsche.png",
+    "tasteInfo": "Intensiver Kirschgeschmack mit süß-fruchtigem Finish.",
+    "ingredients": "Mit Whey-Protein, Kirscharoma, Mineralstoffen und wenig Zucker.",
+    "variants": [
+      {
+        "size": "500g",
+        "price": 15.99,
+        "stock": 99,
+        "totalStock": 99
+      },
+      {
+        "size": "1kg",
+        "price": 26.99,
+        "stock": 100,
+        "totalStock": 100
+      },
+      {
+        "size": "1.5kg",
+        "price": 36.99,
+        "totalStock": 100,
+        "stock": 100
+      }
+    ]
+  },
+  {
+    "name": "Banane Muskel Fuel",
+    "description": "Cremiger Bananengeschmack mit sportlicher Note und extra Motivation.",
+    "image": "images/banane.png",
+    "tasteInfo": "Cremige Banane, weich im Geschmack und perfekt für Milch-Shakes.",
+    "ingredients": "Mit Whey-Protein, Bananenaroma, B-Vitaminen und Magnesium.",
+    "variants": [
+      {
+        "size": "500g",
+        "price": 13.99,
+        "stock": 99,
+        "totalStock": 99
+      },
+      {
+        "size": "1kg",
+        "price": 23.99,
+        "stock": 100,
+        "totalStock": 100
+      },
+      {
+        "size": "1.5kg",
+        "price": 33.99,
+        "stock": 100,
+        "totalStock": 100
+      }
+    ]
+  },
+  {
+    "name": "Erdbeer Fitness Boost",
+    "description": "Ein fruchtiger Erdbeer-Klassiker für deinen aktiven Lifestyle.",
+    "image": "images/erdbeere.png",
+    "tasteInfo": "Sommerlich-süße Erdbeere mit frischem Fitness-Vibe.",
+    "ingredients": "Mit Whey-Protein, Erdbeeraroma, Vitaminen und cremiger Textur.",
+    "variants": [
+      {
+        "size": "500g",
+        "price": 16.99,
+        "stock": 99,
+        "totalStock": 99
+      },
+      {
+        "size": "1kg",
+        "price": 27.99,
+        "stock": 100,
+        "totalStock": 100
+      },
+      {
+        "size": "1.5kg",
+        "price": 39.99,
+        "stock": 100,
+        "totalStock": 100
+      }
+    ]
+  },
+  {
+    "name": "Vanille Protein Boost",
+    "description": "Cremiger Vanillegeschmack für einen klassischen Premium-Proteinshake.",
+    "image": "images/vanille.png",
+    "tasteInfo": "Feine Vanille mit cremigem und sanftem Geschmack.",
+    "ingredients": "Mit Whey-Protein, Vanillearoma, Vitaminen und wenig Zucker.",
+    "variants": [
+      {
+        "size": "500g",
+        "price": 17.99,
+        "stock": 99,
+        "totalStock": 99
+      },
+      {
+        "size": "1kg",
+        "price": 29.99,
+        "stock": 100,
+        "totalStock": 100
+      },
+      {
+        "size": "1.5kg",
+        "price": 41.99,
+        "stock": 100,
+        "totalStock": 100
+      }
+    ]
+  },
+  {
+    "name": "Schokolade Protein Boost",
+    "description": "Intensiver Schokoladengeschmack für maximale Genussmomente.",
+    "image": "images/schokolade.png",
+    "tasteInfo": "Kräftige Schokolade mit cremigem Kakao-Finish.",
+    "ingredients": "Mit Whey-Protein, Kakao, Schokoladenaroma und wenig Zucker.",
+    "variants": [
+      {
+        "size": "500g",
+        "price": 18.99,
+        "stock": 100,
+        "totalStock": 100
+      },
+      {
+        "size": "1kg",
+        "price": 31.99,
+        "stock": 100,
+        "totalStock": 100
+      },
+      {
+        "size": "1.5kg",
+        "price": 43.99,
+        "stock": 100,
+        "totalStock": 100
+      }
+    ]
+  },
+  {
+    "name": "Pistazie Protein Boost",
+    "description": "Nussiger Pistaziengeschmack mit edlem Premium-Charakter.",
+    "image": "images/pistazie.png",
+    "tasteInfo": "Cremige Pistazie mit leicht süßem und intensivem Aroma.",
+    "ingredients": "Mit Whey-Protein, Pistazienaroma, Vitaminen und wenig Zucker.",
+    "variants": [
+      {
+        "size": "500g",
+        "price": 19.99,
+        "stock": 100,
+        "totalStock": 100
+      },
+      {
+        "size": "1kg",
+        "price": 33.99,
+        "stock": 100,
+        "totalStock": 100
+      },
+      {
+        "size": "1.5kg",
+        "price": 46.99,
+        "stock": 100,
+        "totalStock": 100
+      }
+    ]
+  },
+  {
+    "name": "Kaffee Protein Boost",
+    "description": "Perfekt für Fokus, Energie und starke Workouts.",
+    "image": "images/kaffee.png",
+    "tasteInfo": "Kräftiger Kaffee mit cremiger Latte-Note.",
+    "ingredients": "Mit Whey-Protein, Kaffeeextrakt, Vitaminen und wenig Zucker.",
+    "variants": [
+      {
+        "size": "500g",
+        "price": 18.99,
+        "stock": 100,
+        "totalStock": 100
+      },
+      {
+        "size": "1kg",
+        "price": 32.99,
+        "stock": 100,
+        "totalStock": 100
+      },
+      {
+        "size": "1.5kg",
+        "price": 44.99,
+        "stock": 100,
+        "totalStock": 100
+      }
+    ]
+  }
+]

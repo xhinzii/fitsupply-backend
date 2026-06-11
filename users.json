@@ -1,0 +1,90 @@
+[
+  {
+    "email": "thinzmann17@gmx.de",
+    "password": "F.itSupply17",
+    "orders": [
+      {
+        "number": "FS-229387",
+        "customer": "... ...",
+        "email": "thinzmann17@gmx.de",
+        "address": "..., ... ...",
+        "payment": "PayPal",
+        "items": [
+          "1x Banane Muskel Fuel (500g)"
+        ],
+        "cartItems": [
+          {
+            "name": "Banane Muskel Fuel",
+            "size": "500g",
+            "quantity": 1
+          }
+        ],
+        "total": 21.6381
+      },
+      {
+        "number": "FS-200743",
+        "customer": "Tim Hinzmann",
+        "email": "thinzmann17@gmx.de",
+        "address": "Eichenring 1, 14469 Potsdam",
+        "payment": "PayPal",
+        "items": [
+          "1x Kirsche Power Shake (500g)"
+        ],
+        "cartItems": [
+          {
+            "name": "Kirsche Power Shake",
+            "size": "500g",
+            "quantity": 1
+          }
+        ],
+        "total": 24.018100000000004
+      },
+      {
+        "number": "FS-334757",
+        "customer": "Tim Hinzmann",
+        "email": "thinzmann17@gmx.de",
+        "address": "Heidestraße 5a, 14469 Potsdam",
+        "payment": "PayPal",
+        "items": [
+          "1x Apfel Protein Mix (500g)"
+        ],
+        "total": 21.936194999999998
+      }
+    ]
+  },
+  {
+    "email": "beispiel@gmx.de",
+    "password": "1234",
+    "orders": [
+      {
+        "number": "FS-386988",
+        "customer": "... ...",
+        "email": "thinzmann17@gmx.de",
+        "address": "..., ... ...",
+        "payment": "PayPal",
+        "items": [
+          "1x Erdbeer Fitness Boost (500g)"
+        ],
+        "cartItems": [
+          {
+            "name": "Erdbeer Fitness Boost",
+            "size": "500g",
+            "quantity": 1
+          }
+        ],
+        "total": 25.2081
+      },
+      {
+        "number": "FS-152361",
+        "customer": "... ...",
+        "email": "beispiel@gmx.de",
+        "address": "..., ... ...",
+        "payment": "PayPal",
+        "items": [
+          "1x Apfel Protein Mix (500g)"
+        ],
+        "total": 21.936194999999998
+      }
+    ]
+  }
+]
