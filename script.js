@@ -114,7 +114,7 @@
     }
 
 function loadProductsFromBackend() {
-  fetch("http://localhost:3000/products")
+  fetch("https://fitsupply-backend.onrender.com/products")
     .then(response => response.json())
     .then(data => {
       products = data;
@@ -442,7 +442,7 @@ function loadProductsFromBackend() {
   const email = accountEmail.value.trim().toLowerCase();
   const password = accountPassword.value.trim();
 
-  fetch("http://localhost:3000/register", {
+  fetch("https://fitsupply-backend.onrender.com/register", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ email, password })
@@ -467,7 +467,7 @@ function loadProductsFromBackend() {
   const email = accountEmail.value.trim().toLowerCase();
   const password = accountPassword.value.trim();
 
-  fetch("http://localhost:3000/login", {
+  fetch("https://fitsupply-backend.onrender.com/login", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ email, password })
@@ -556,7 +556,7 @@ function loadProductsFromBackend() {
     total: totals.total
   };
 
-  fetch("http://localhost:3000/order", {
+  fetch("https://fitsupply-backend.onrender.com/order", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
