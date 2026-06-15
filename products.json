@@ -36,8 +36,8 @@
       {
         "size": "500g",
         "price": 15.99,
-        "stock": 99,
-        "totalStock": 99
+        "stock": 100,
+        "totalStock": 100
       },
       {
         "size": "1kg",
@@ -63,8 +63,8 @@
       {
         "size": "500g",
         "price": 13.99,
-        "stock": 99,
-        "totalStock": 99
+        "stock": 100,
+        "totalStock": 100
       },
       {
         "size": "1kg",
@@ -90,8 +90,8 @@
       {
         "size": "500g",
         "price": 16.99,
-        "stock": 99,
-        "totalStock": 99
+        "stock": 100,
+        "totalStock": 100
       },
       {
         "size": "1kg",
@@ -117,8 +117,8 @@
       {
         "size": "500g",
         "price": 17.99,
-        "stock": 99,
-        "totalStock": 99
+        "stock": 100,
+        "totalStock": 100
       },
       {
         "size": "1kg",
